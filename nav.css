@@ -1,0 +1,22 @@
+/* fonctionnalité/disposition du bloc de navigation */
+nav#panel{
+	border: 2px double rgb(171, 255, 169);
+	background: rgb(131, 112, 216);
+	max-width: max-content;
+	position: fixed;
+	top: 1rem;
+	left: 1rem;
+	display: flex;
+}
+/* style du bloc de navigation */
+nav#panel a {
+	color: inherit;
+	color: rgb(171, 255, 169);
+	text-decoration: none;
+	padding: 0.3rem;
+}
+nav#panel a:hover{
+	background: rgb(254, 127, 0);
+}
+nav#panel a:visited{
+	text-decoration:double;}
